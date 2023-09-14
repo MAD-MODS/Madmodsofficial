@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Termux hacking home</title>
+</head>
+<!--TEMRUX HACKING HOME PAGE-->
+<body>
+  <style>
+    body {
+      background: url('Hack11.jpg');
+      background-size: 100% auto;
+      background-repeat:no-repeat;
+      background-color:black;
+    }
+  </style>
+  <h1 style="color: black;font-family: Baskerville;font-size: 35px;-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: green;text-align:center;">𝗧𝗘𝗥𝗠𝗨𝗫 𝗛𝗔𝗖𝗞𝗜𝗡𝗚</h1>
+  
+    <!--BUTTON-->
+<div id="popupContainer" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: black; padding: 20px; border-radius: 0px;border:2px solid green; width: 300px; text-align: center; box-shadow: 0 0 0px rgba(0, 0, 0, 0.3);">
+  <p style="color: red;font-family:serif;"><i>Follow me on Instagram to proceed:</i></p>
+  <a href="https://www.instagram.com/mad__mods" style="color: green; font-weight: bold;font-family: serif; text-decoration: none;"><i>Follow🦋</i></a>
+</div>
+ <p style="display: inline;color: green;margin-bottom: 100px;font-family: serif;font-size: 12px"> 💕<I> HACK INSTAGRAM ACCOUNT USING ZPHISHER</p></i>
+   &nbsp;&nbsp;   &nbsp;
+    <a href="Zphisher.html" id="link" style="display: inline-block;font-size: 13px; padding: 4px 20px; background-color: none; color: red; text-decoration: none;border-radius: 5px;border : 1px solid red"><i>CHECK</i></a>
+  </div>
+
+<script>
+document.getElementById('link').addEventListener('click', function(event) {
+  event.preventDefault();
+  
+  if (localStorage.getItem('instagram_followed')) {
+      window.location.href = this.href; // Redirect if already followed
+  } else {
+      document.getElementById('popupContainer').style.display = 'block'; // Show the popup if not yet followed
+  }
+});
+
+document.querySelector('#popupContainer a').addEventListener('click', function() {
+  localStorage.setItem('instagram_followed', true); // Set local storage to indicate that the user has followed
+  document.getElementById('popupContainer').style.display = 'none'; // Hide the popup
+  window.location.href = "https://www.mediafire.com/file/2qhn6vdqst0sq17/MT_Manager_2.13.6.apk/file"; // Redirect after following
+});
+</script>
+  </body>
+  </html>
