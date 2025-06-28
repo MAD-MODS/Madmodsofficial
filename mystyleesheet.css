@@ -43,10 +43,7 @@ p{
     border-radius:5px;
     cursor:pointer;
     text-decoration:none;
-     position:absolute;
-    bottom:70%;
-    right:41%;
-    transform: translate(-50%,-50%);
+    margin-bottom:10px;
     }
 .button1 {
 background-color:Aqua;
