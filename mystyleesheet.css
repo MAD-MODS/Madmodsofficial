@@ -1,0 +1,103 @@
+body{
+  background-color: black;
+}
+h1{
+  color: white;
+  font-family: "Open Sans",sans-serif;
+  text-align: center;
+}
+h2{
+  color: red;
+  font-family: "Open Sans",sans-serif;
+  text-align: center;
+}
+p{
+  color: maroon;
+  text-align: center;
+}
+.button {
+    background-color:green;
+    color:yellow;
+    padding:10px 20px;
+    border:green;
+    border-radius:5px;
+    cursor:pointer;
+    text-decoration:none;
+     position:absolute;
+    bottom:70%;
+    right:41%;
+    transform: translate(-50%,-50%);
+    }
+.button1 {
+background-color:Aqua;
+    color:red;
+    padding:10px 20px;
+    border-size:2px;
+    border-color:green;
+    border-radius:30px;
+    cursor:pointer;
+    text-decoration:none;
+}
+.button2 {
+    background-color:green;
+    color:yellow;
+    padding:10px 20px;
+    border:green;
+    border-radius:5px;
+    cursor:pointer;
+    text-decoration:none;
+     position:absolute;
+    bottom:55%;
+    right:40.7%;
+    transform: translate(-50%,-50%);
+}
+.button3  {
+    background-color:green;
+    color:yellow;
+    padding:10px 20px;
+    border:green;
+    border-radius:5px;
+    cursor:pointer;
+    text-decoration:none;
+     position:absolute;
+    bottom:45%;
+    right:42.6%;
+    transform: translate(-50%,-50%);
+ }
+ .button4  {
+    background-color:green;
+    color:yellow;
+    padding:10px 20px;
+    border:green;
+    border-radius:5px;
+    cursor:pointer;
+    text-decoration:none;
+     position:absolute;
+    bottom:35%;
+    right:44%;
+    transform: translate(-50%,-50%);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
