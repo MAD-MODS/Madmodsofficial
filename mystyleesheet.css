@@ -43,9 +43,9 @@ p{
     border-radius:5px;
     cursor:pointer;
     text-decoration:none;
-     position: center;
+    position: center;
     bottom:70%;
-    transform: translate(-50%,-50%);
+    margin:100px;
     }
 .button1 {
 background-color:Aqua;
@@ -67,6 +67,7 @@ background-color:Aqua;
     text-decoration:none;
     position:center;
     bottom:50%;
+    margin:100px;
 }
 .button3  {
     background-color:aqua;
@@ -76,9 +77,9 @@ background-color:Aqua;
     border-radius:5px;
     cursor:pointer;
     text-decoration:none;
-     position:center;
+    position:center;
     bottom:30%;
-    transform: translate(-50%,-50%);
+    margin:100px;   
  }
  .button4  {
     background-color:aqua;
@@ -90,6 +91,7 @@ background-color:Aqua;
     text-decoration:none;
     position:center;
     bottom:10%;
+    margin:100px;
     }
    .button5  {
     background-color:aqua;
@@ -101,6 +103,7 @@ background-color:Aqua;
     text-decoration:none;
     position:center;
     bottom:80%;
+    margin:100px;
     }
    .button6 {
     background-color:aqua;
@@ -112,6 +115,7 @@ background-color:Aqua;
     text-decoration:none;
     position: center;
     bottom:50%;
+    margin:100px;
     }
 
 
