@@ -66,10 +66,8 @@ background-color:Aqua;
     border-radius:5px;
     cursor:pointer;
     text-decoration:none;
-     position:absolute;
-    bottom:55%;
-    right:40.7%;
-    transform: translate(-50%,-50%);
+    position:center;
+    bottom:50%;
 }
 .button3  {
     background-color:aqua;
@@ -79,9 +77,8 @@ background-color:Aqua;
     border-radius:5px;
     cursor:pointer;
     text-decoration:none;
-     position:absolute;
+     position:center;
     bottom:45%;
-    right:42.6%;
     transform: translate(-50%,-50%);
  }
  .button4  {
@@ -92,10 +89,8 @@ background-color:Aqua;
     border-radius:5px;
     cursor:pointer;
     text-decoration:none;
-     position:absolute;
-    bottom:35%;
-    right:44%;
-    transform: translate(-50%,-50%);
+    position:center;
+    bottom:40%;
     }
    .button5  {
     background-color:aqua;
