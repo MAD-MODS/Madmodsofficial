@@ -1,24 +1,10 @@
 body{
-  background-color: black;
-   font-size: 16px;
-  width: 80%;
-  margin: 40px auto;
+  background: url('Hack11.jpg');
+      background-size: 100% auto;
+      background-repeat:no-repeat;
+      background-color:black;
 }
-
-@media only screen and (max-width: 768px) {
-  body {
-    font-size: 14px;
-    width: 90%;
-    margin: 20px auto;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  body {
-    font-size: 12px;
-    width: 100%;
-    margin: 10px auto;
-}
+  
 }
 h1{
   color: white;
