@@ -105,10 +105,8 @@ background-color:Aqua;
     border-radius:5px;
     cursor:pointer;
     text-decoration:none;
-     position:absolute;
-    bottom:70%;
-    right:47%;
-    transform: translate(-50%,-50%);
+     position:center;
+    bottom:80%;
     }
    .button6 {
     background-color:aqua;
@@ -118,10 +116,8 @@ background-color:Aqua;
     border-radius:5px;
     cursor:pointer;
     text-decoration:none;
-     position:absolute;
+     position: center;
     bottom:70%;
-    right:40%;
-    transform: translate(-50%,-50%);
     }
 
 
