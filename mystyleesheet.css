@@ -22,6 +22,12 @@ body {
     margin: 10px auto;
   }
 }
+body {
+      background: url('maff.jpg');
+      background-size: 100% auto;
+      background-repeat:no-repeat;
+      background-color:black;
+}
 
 h1{
   color: white;
