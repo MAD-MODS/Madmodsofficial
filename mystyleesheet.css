@@ -1,9 +1,34 @@
 body{
   background: url('maff.jpg');
-      background-size: 85% auto;
+      background-size: 100% auto;
       background-repeat:no-repeat;
       background-color:black;
 }
+/* Default styles for laptop/desktop screens */
+body {
+  font-size: 16px;
+  width: 80%;
+  margin: 40px auto;
+}
+
+/* Styles for mobile screens (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+    width: 90%;
+    margin: 20px auto;
+  }
+}
+
+/* Styles for smaller mobile screens (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+    width: 100%;
+    margin: 10px auto;
+  }
+}
+
 h1{
   color: white;
   font-family: "Open Sans",sans-serif;
